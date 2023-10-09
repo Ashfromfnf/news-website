@@ -22,28 +22,38 @@
 }
 
 
-.ads {
+.main {
     position: absolute;
     left: 0;
     right: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .adleft {
     background-color: blueviolet;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 600px;
+    width: 160px;
+
 
 }
 
 .adright {
     background-color: blueviolet;
     display: flex;
+    height: 600px;
+    width: 160px;
+
+}
+
+.text {
+    background-color: gray;
+    display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 1000px;
+    order: 100;
 }
