@@ -21,15 +21,15 @@
     color: rgb(255, 255, 255);
 }
 
+.menu li {
+    list-style: none;
+
+}
 
 .main {
-    position: absolute;
-    left: 0;
-    right: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
+    margin: auto;
+    
 }
 
 .adleft {
@@ -49,11 +49,32 @@
 
 }
 
+.adbox_l {
+    border-style: solid;
+    width: 250px;
+    float: left;
+}
+
 .text {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    text-align: center;
     width: 1000px;
     order: 100;
+    border-style: ridge;
+    border-radius: 0px;
+    
+
+}
+
+.adbox {
+    border-style: solid;
+    width: 250px;
+    float: right;
+}
+
+
+.headline {
+    color: red;
 }
