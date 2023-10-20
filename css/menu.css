@@ -89,4 +89,10 @@
 
 .headline {
     color: red;
+    font-family: Arial;
+}
+
+.text h2 {
+    font-family: sans-serif;
+    font-size: x-large;
 }
