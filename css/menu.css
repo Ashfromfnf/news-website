@@ -53,6 +53,11 @@
     flex-wrap: nowrap;
 }
 
+.adparent {
+    position: fixed;
+    top: 20px;
+}
+
 .adbox_l {
     border-style: solid;
     height: 500px;
