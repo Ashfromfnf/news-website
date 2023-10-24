@@ -1,7 +1,13 @@
+body {
+background-color: whitesmoke;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;    
+    position: fixed;
+    top: 0px;
 }
  
 .menu a {
@@ -53,22 +59,14 @@
     flex-wrap: nowrap;
 }
 
-.adparent {
-    position: fixed;
-    top: 20px;
-}
 
-.adbox_l {
-    border-style: solid;
-    height: 500px;
-    float: left;
-    flex-wrap: nowrap;
-    position: relative;
-    width: 20%;
-}
+
+
+
+
 
 .text {
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -90,6 +88,16 @@
     position: relative;
     width: 20%;
 }
+
+.adbox_l {
+    border-style: solid;
+    height: 500px;
+    float: left;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 20%;
+}
+
 
 
 .headline {
