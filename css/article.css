@@ -1,0 +1,67 @@
+.adleft {
+    background-color: blueviolet;
+    display: flex;
+    height: 600px;
+    width: 160px;
+    flex-wrap: nowrap;
+
+}
+
+.adright {
+    background-color: blueviolet;
+    display: flex;
+    height: 600px;
+    width: 160px;
+    flex-wrap: nowrap;
+}
+
+
+
+
+
+
+
+.text {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    order: 100;
+    border-style: ridge;
+    border-radius: 0px;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 57%;
+    margin: auto;
+
+}
+
+.adbox {
+    border-style: solid;
+    height: 500px;
+    float: right;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 20%;
+}
+
+.adbox_l {
+    border-style: solid;
+    height: 500px;
+    float: left;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 20%;
+}
+
+
+
+.headline {
+    color: red;
+    font-family: Arial;
+}
+
+.text h2 {
+    font-family: sans-serif;
+    font-size: x-large;
+}
