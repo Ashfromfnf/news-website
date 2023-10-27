@@ -79,9 +79,17 @@
     background-color: black;
     position: relative;
     width: 20%;
+    border: solid;
+    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 
 .ad_test {
-
+    position: fixed;
+    width: 160px;
+    height: 600px;
+    top: 20px;
+    border: dotted;
 }
