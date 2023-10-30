@@ -99,6 +99,9 @@
     width: 160px;
     height: 600px;
     top: 60px;
+    border: solid;
+    border-radius: 1px;
+    border-color: rgb(100, 100, 100);
 }
 
 
@@ -119,4 +122,8 @@
     width: 160px;
     height: 600px;
     top: 60px;
+    border: solid;
+    border-radius: 1px;
+    border-color: rgb(100, 100, 100);
+}
 }
