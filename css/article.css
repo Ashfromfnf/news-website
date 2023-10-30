@@ -21,19 +21,25 @@
 
 
 
-.text {
-    background-color: whitesmoke;
+.text { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: ce;
     text-align: center;
     order: 100;
-    border-style: ridge;
-    border-radius: 0px;
     flex-wrap: nowrap;
     position: relative;
     width: 57%;
     margin: auto;
 
+}
+
+.text img {
+    width: 97%;
+    margin: auto;
+    border-style: ridge;
+    border-radius: 0px;
 }
 
 .adbox {
@@ -64,6 +70,7 @@
 .text h2 {
     font-family: sans-serif;
     font-size: x-large;
+    width: 99%;
 }
 
 
@@ -76,10 +83,11 @@
 
 
 .adbox_test {
-    background-color: black;
     position: relative;
+    top: 100px;
     width: 20%;
     border: solid;
+    border-color: rgb(254, 254, 254);
     float: left;
     display: flex;
     justify-content: center;
@@ -90,6 +98,25 @@
     position: fixed;
     width: 160px;
     height: 600px;
-    top: 20px;
-    border: dotted;
+    top: 60px;
+}
+
+
+.adbox_test_r {
+    position: relative;
+    top: 100px;
+    width: 20%;
+    border: solid;
+    border-color: rgb(254, 254, 254);
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ad_test_r {
+    position: fixed;
+    width: 160px;
+    height: 600px;
+    top: 60px;
 }
