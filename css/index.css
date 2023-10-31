@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 100;
+    position: relative;
+    width: 57%;
+    margin: auto;
+    border: solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.box div {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    margin: 20px;
+    display: flex;
+}
+
+.box div a {
+    width: 200px;
+    height: 200px;
+}
+
+.box div a img {
+    width: 200px;
+    height: 200px;
+}

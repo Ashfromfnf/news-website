@@ -1,0 +1,95 @@
+.adleft {
+    background-color: blueviolet;
+    display: flex;
+    height: 600px;
+    width: 160px;
+    flex-wrap: nowrap;
+
+}
+
+.adright {
+    background-color: blueviolet;
+    display: flex;
+    height: 600px;
+    width: 160px;
+    flex-wrap: nowrap;
+}
+
+
+
+
+/*break*/
+
+
+.adbox {
+    border-style: solid;
+    height: 500px;
+    float: right;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 20%;
+}
+
+.adbox_l {
+    border-style: solid;
+    height: 500px;
+    float: left;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 20%;
+}
+
+
+/*break*/
+
+
+
+
+
+/*imporant shit*/
+
+
+.adbox_test {
+    position: relative;
+    top: 100px;
+    width: 20%;
+    border: solid;
+    border-color: rgb(254, 254, 254);
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ad_test {
+    position: fixed;
+    width: 160px;
+    height: 600px;
+    top: 60px;
+    border: solid;
+    border-radius: 1px;
+    border-color: rgb(100, 100, 100);
+}
+
+
+.adbox_test_r {
+    position: relative;
+    top: 100px;
+    width: 20%;
+    border: solid;
+    border-color: rgb(254, 254, 254);
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ad_test_r {
+    position: fixed;
+    width: 160px;
+    height: 600px;
+    top: 60px;
+    border: solid;
+    border-radius: 1px;
+    border-color: rgb(100, 100, 100);
+}
