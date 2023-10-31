@@ -1,6 +1,7 @@
 form {
     background-color: #afafaf;
-    width: 300px;
+    position: relative;
+    width: 50%;
     height: 44px;
     border-radius: 5px;
     display: flex;
@@ -30,6 +31,11 @@ form {
   }
 
 
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+
 
 body {
     background-color: rgb(254, 254, 254);
@@ -38,7 +44,8 @@ body {
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;    
+    justify-content: center;
+    justify-items: center;
 }
  
 .menu a {
