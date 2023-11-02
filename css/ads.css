@@ -93,3 +93,17 @@
     border-radius: 1px;
     border-color: rgb(100, 100, 100);
 }
+
+
+
+
+/*the bottom ads*/
+
+
+.ad_bottom {
+    width: 336px;
+    height: 280px;
+    border: solid;
+    margin: 20px;
+    order: 100000;
+}
