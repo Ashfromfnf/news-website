@@ -4,12 +4,35 @@
 #
 # PATH: py/articles.txt
 
-txtPath = "C:/Users/andre/Documents/GitHub/website-but-boring/py/articles.txt"
+txtPath = r"py/articles.txt"
 
-txt = open(txtPath, "r").read()
+txt = open("py\input.txt", "r", encoding="utf8").read()
 
 txtlist = txt.split("YOU'REBEAUTIFUL")
 
 print(txt)
+print(txtlist)
 
-input("")
+finish = txt.replace(r"\n", "")
+listfinish = finish.split("YOU'REBEAUTIFUL")
+
+print("list finish:")
+print(listfinish)
+
+
+html = open("py/articlehtml.txt", "r", encoding="utf8").read()
+print(html)
+
+for i, val in listfinish:
+    obj = listfinish[val]
+    objli = obj.split("69TITILE69")
+
+
+    title = objli[0]
+    article = objli[1]
+
+    html = open("py/articlehtml.txt", "r", encoding="utf8").read()
+
+    print(html)
+
+input("heyy")
