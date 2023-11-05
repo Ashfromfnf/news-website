@@ -8,7 +8,6 @@
     position: relative;
     width: 57%;
     margin: auto;
-    border: solid;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -30,4 +29,35 @@
 .box div a img {
     width: 200px;
     height: 200px;
+}
+
+.hamburger {
+    display: flex;
+    position: fixed;
+    margin: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.hamburger img {
+    float: left;
+    width: 44px;
+    height: 44px;
+}
+
+
+
+.hamburger button {
+
+    &:hover {
+        transform: scale(1.1)
+    }
+
+    &:hover + .hamburger {
+        transform: scale(1.1)
+    }
+
+    &:hover + .hamburger button img {
+        transform: scale(1.1)
+    }
 }
