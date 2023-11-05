@@ -11,12 +11,26 @@
 
 <body>
     <div class="menusimple">
-    <div class="hamburger">
-        <button onclick="window.location.href=""><img src="images/system/hamburg.svg" alt=""></button>
+    <div class="hamburgpop" id="menu">
+
+        <button class="closehamb" onclick="location.href='#';">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="r-1nao33i r-4qtqp9 r-yyyyoo r-16y2uox r-8kz0gk r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+        </button>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Contact Us!</a></li>
+
     </div>
-    
+
+    <div class="hamburger">
+        <button class="buttoninhamb" onclick="location.href='#menu';"><img src="images/system/hamburg.svg" alt=""></button>
+    </div>
+
     <div class="home">
-        <button><img src="images/system/home.svg" alt=" "></button>
+        <button onclick="location.href='#';"><img src="images/system/home.svg" alt=" "></button>
     </div>
 
     <div class="search">
@@ -26,6 +40,9 @@
           </form>
     </div>
     </div>
+
+
+    
     
     <!--
     <div class="menu">
@@ -37,10 +54,11 @@
     </div>
     -->
 
-    </div>
 
 
     <div class="main">
+
+        <h1 class="indextitle">The Daily Bulge<br><h2>Pick an article! :)</h2></h1>
 
         <div class="box">
                 <div><a href="articles\UFO-white-house-Elon-Musk-5G copy.html"><img src="images/thumbnails/thumbnail-elonmusk-aliens-5G.png" alt="Article - Aliens are FORCING Elon Musk to turn off 5G"></a></div>

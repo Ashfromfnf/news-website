@@ -53,8 +53,6 @@
     position: relative;
     top: 100px;
     width: 20%;
-    border: solid;
-    border-color: rgb(254, 254, 254);
     float: left;
     display: flex;
     justify-content: center;
@@ -76,8 +74,6 @@
     position: relative;
     top: 100px;
     width: 20%;
-    border: solid;
-    border-color: rgb(254, 254, 254);
     float: right;
     display: flex;
     justify-content: center;

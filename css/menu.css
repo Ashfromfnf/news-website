@@ -1,3 +1,9 @@
+.decoy {
+  position: relative;
+  width: 100%;
+  top: 0px;
+  height: 44px;
+}
 
 
 .hamburger {
@@ -12,6 +18,47 @@
   float: left;
   width: 44px;
   height: 44px;
+}
+
+.hamburgpop {
+  visibility: hidden;
+  position: fixed;
+  border: solid;
+  border-width: 1px;
+  width: 300px;
+  height: 550px;
+  margin: 5px;
+  background-color: rgb(159, 159, 159);
+  z-index: 99;
+  
+}
+
+.closehamb {
+  display: flex;
+  float: right;
+}
+
+
+#menu:target { 
+  visibility: visible;
+}
+
+.hamburgpop li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  height: 10%;
+}
+
+.hamburgpop li a {
+  color:  black;
+}
+
+
+.buttoninhamb {
+  &:active + .hamburgpop {
+    display: block;
+  }
 }
 
 .home {
@@ -42,6 +89,22 @@
   }
 
   &:hover + .hamburger button img {
+      transform: scale(1.1)
+  }
+}
+
+
+.home button {
+
+  &:hover {
+      transform: scale(1.1)
+  }
+
+  &:hover + .home {
+      transform: scale(1.1)
+  }
+
+  &:hover + .home button img {
       transform: scale(1.1)
   }
 }
