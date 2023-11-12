@@ -18,7 +18,7 @@ print("list finish:")
 print(listfinish)
 
 
-html = open("py/articlehtml.txt", "r", encoding="utf8").read()
+html = open("py/articlehtml.html", "r", encoding="utf8").read()
 print(html)
 
 
@@ -34,7 +34,7 @@ for x in listcomplete:
     if len(x) <= 2:
         title = x[0]
         article = x[1]
-        html = open("py/articlehtml.txt", "r", encoding="utf8").read().format(title, title, article)
+        html = open("py/articlehtml.html", "r", encoding="utf8").read().format(title, title, article)
         print(html)
 
         with open(("./articles/" + title.replace(" - ", "-").replace(",", "").replace("""'""", "").replace("?", "").replace(" ", "-") + ".html"), "w", encoding="utf8") as file:
