@@ -40,7 +40,7 @@ for x in listcomplete:
         with open(("./articles/" + title.replace(" - ", "-").replace(",", "").replace("""'""", "").replace("?", "").replace(" ", "-") + ".html"), "w", encoding="utf8") as file:
             file.write(html)
     else:
-        print(x + "\n \n \n ^^^^^^^^^^^ \n TOO SHORT!!!!")
+        print(x + "\n \n \n ^^^^^^^^^^^ \n FORMATTING ISSUE!!!!")
 
 
 input()

@@ -161,12 +161,22 @@ form {
     width: 44px;
     height: 44px;
     top: 5px;
+
+    &:hover ~ #searchimg {
+      height: 100px;
+      width: 100px;
+    }
   }
 
   button img {
     width: 25px;
     height: 25px;
     top: 5px;
+  }
+
+  button:hover + #searchimg {
+    height: 100px;
+    width: 100px;
   }
 
 
@@ -181,6 +191,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
 
 .menu {
     display: flex;
